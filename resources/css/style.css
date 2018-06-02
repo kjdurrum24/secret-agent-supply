@@ -7,6 +7,12 @@ body {
 
 }
 
+h1, h4 {
+  font-weight: bold;
+}
+
+/* Top Bar Section */
+
 .company {
   background-color: black;
   color: white;
@@ -26,4 +32,29 @@ body {
 .company img {
   padding: 15px;
   height: 1.5rem;
+}
+
+/* Main Banner Section */
+
+.main-banner {
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/secret-agent-supply/resources/images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
+
+.headline h1 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
 }
