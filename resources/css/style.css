@@ -1,4 +1,6 @@
 html {
+  font-size: 18px;
+  color: white;
 
 }
 
@@ -37,7 +39,7 @@ h1, h4 {
 /* Main Banner Section */
 
 .main-banner {
-  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/secret-agent-supply/resources/images/moto.jpeg);
+  background-image: url(../resources/images/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -57,4 +59,36 @@ h1, h4 {
   font-size: 2em;
   line-height: 1.2em;
   margin: 0.25em 0;
+}
+
+/* Menu Section */
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+}
+
+@media only screen and (min-width: 470px) and (min-width: 1024px) {
+  .mobile-nav {
+    text-align: center
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
 }
