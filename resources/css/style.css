@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: Helvetica, sans-serif;
-
+  line-height: 1.4em;
 }
 
 h1, h4 {
@@ -39,7 +39,7 @@ h1, h4 {
 /* Main Banner Section */
 
 .main-banner {
-  background-image: url(../resources/images/moto.jpeg);
+  background-image: url(../images/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -73,22 +73,20 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75em 0;
+  list-style: none;
 }
 
-@media only screen and (min-width: 470px) and (min-width: 1024px) {
-  .mobile-nav {
-    text-align: center
-    display: block;
-  }
+.mobile-nav {
+  display: none;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 1024px) {
   nav ul {
     display: none;
   }
 
   .mobile-nav {
-    display: none;
+    display: block;
+    text-align: center
   }
-
 }
