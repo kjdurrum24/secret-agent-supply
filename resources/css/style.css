@@ -27,13 +27,15 @@ h1, h4 {
 .company .container {
   display: flex;
   align-items: center;
-  padding: 12px 0 12px 0.5em;
+  padding: .66rem 0 .66rem 0.5rem;
 }
 
 .company img {
   padding: 15px;
   height: 1.5rem;
 }
+
+
 
 /* Main Banner Section */
 
@@ -178,10 +180,33 @@ footer {
   }
 
   .company img {
-    width: 25%;
+    width: 15%;
     height: auto;
-    justify-content: center;
+    margin-left: 7.8rem;
+  }
+
+  .company .container {
+    display: flex;
     align-items: center;
+    padding: 0;
+}
+
+  .headline {
+    top: 10rem;
+    padding: 1em 2em;
+  }
+
+  .headline h1{
+    font-size: 1rem;
+
+  }
+
+  .headline h4 {
+    font-size: 0.7rem
+  }
+
+  .main-banner {
+    height: 15rem;
   }
 
 }
